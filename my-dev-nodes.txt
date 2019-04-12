@@ -1,0 +1,202 @@
+total 0
+crw-------. 1 root   root     10, 175 Apr 12 09:25 agpgart
+crw-r--r--. 1 root   root     10, 235 Apr 12 09:25 autofs
+drwxr-xr-x. 2 root   root         160 Apr 12 09:25 block
+drwxr-xr-x. 2 root   root          80 Apr 12 09:25 bsg
+crw-------. 1 root   root     10, 234 Apr 12 09:25 btrfs-control
+drwxr-xr-x. 3 root   root          60 Apr 12 09:25 bus
+lrwxrwxrwx. 1 root   root           3 Apr 12 09:25 cdrom -> sr0
+drwxr-xr-x. 2 root   root        3740 Apr 12 09:29 char
+crw-------. 1 root   root      5,   1 Apr 12 09:25 console
+lrwxrwxrwx. 1 root   root          11 Apr 12 09:25 core -> /proc/kcore
+drwxr-xr-x. 3 root   root          60 Apr 12 09:25 cpu
+crw-------. 1 root   root     10,  61 Apr 12 09:25 cpu_dma_latency
+crw-------. 1 root   root     10, 203 Apr 12 09:25 cuse
+drwxr-xr-x. 7 root   root         140 Apr 12 09:25 disk
+brw-rw----. 1 root   disk    253,   0 Apr 12 09:25 dm-0
+brw-rw----. 1 root   disk    253,   1 Apr 12 09:25 dm-1
+crw-rw----+ 1 root   audio    14,   9 Apr 12 09:25 dmmidi
+drwxr-xr-x. 3 root   root         100 Apr 12 09:25 dri
+crw-rw----. 1 root   video    29,   0 Apr 12 09:28 fb0
+lrwxrwxrwx. 1 root   root          13 Apr 12 09:25 fd -> /proc/self/fd
+drwxr-xr-x. 2 root   root          80 Apr 12 09:25 fedora
+crw-rw-rw-. 1 root   root      1,   7 Apr 12 09:25 full
+crw-rw-rw-. 1 root   root     10, 229 Apr 12 09:29 fuse
+crw-------. 1 root   root    240,   0 Apr 12 09:25 hidraw0
+crw-------. 1 root   root     10, 228 Apr 12 09:25 hpet
+drwxr-xr-x. 3 root   root           0 Apr 12 09:28 hugepages
+crw-------. 1 root   root     10, 183 Apr 12 09:25 hwrng
+lrwxrwxrwx. 1 root   root          12 Apr 12 09:25 initctl -> /run/initctl
+drwxr-xr-x. 4 root   root         260 Apr 12 09:25 input
+crw-r--r--. 1 root   root      1,  11 Apr 12 09:25 kmsg
+lrwxrwxrwx. 1 root   root          28 Apr 12 09:25 log -> /run/systemd/journal/dev-log
+crw-rw----. 1 root   disk     10, 237 Apr 12 09:25 loop-control
+crw-rw----. 1 root   lp        6,   0 Apr 12 09:25 lp0
+crw-rw----. 1 root   lp        6,   1 Apr 12 09:25 lp1
+crw-rw----. 1 root   lp        6,   2 Apr 12 09:25 lp2
+crw-rw----. 1 root   lp        6,   3 Apr 12 09:25 lp3
+drwxr-xr-x. 2 root   root         100 Apr 12 09:25 mapper
+crw-------. 1 root   root     10, 227 Apr 12 09:25 mcelog
+crw-r-----. 1 root   kmem      1,   1 Apr 12 09:25 mem
+crw-------. 1 root   root     10,  58 Apr 12 09:25 memory_bandwidth
+crw-rw----+ 1 root   audio    14,   2 Apr 12 09:25 midi
+drwxrwxrwt. 2 root   root          40 Apr 12 09:25 mqueue
+drwxr-xr-x. 2 root   root          60 Apr 12 09:25 net
+crw-------. 1 root   root     10,  60 Apr 12 09:25 network_latency
+crw-------. 1 root   root     10,  59 Apr 12 09:25 network_throughput
+crw-rw-rw-. 1 root   root      1,   3 Apr 12 09:25 null
+crw-------. 1 root   root     10, 144 Apr 12 09:25 nvram
+crw-r-----. 1 root   kmem      1,   4 Apr 12 09:25 port
+crw-------. 1 root   root    108,   0 Apr 12 09:25 ppp
+crw-rw-rw-. 1 root   tty       5,   2 Apr 12 09:31 ptmx
+drwxr-xr-x. 2 root   root           0 Apr 12 09:25 pts
+crw-rw-rw-. 1 root   root      1,   8 Apr 12 09:25 random
+drwxr-xr-x. 2 root   root          60 Apr 12 09:25 raw
+crw-rw-r--+ 1 root   root     10,  56 Apr 12 09:25 rfkill
+lrwxrwxrwx. 1 root   root           4 Apr 12 09:25 rtc -> rtc0
+crw-------. 1 root   root    249,   0 Apr 12 09:25 rtc0
+brw-rw----. 1 root   disk      8,   0 Apr 12 09:25 sda
+brw-rw----. 1 root   disk      8,   1 Apr 12 09:25 sda1
+brw-rw----. 1 root   disk      8,   2 Apr 12 09:25 sda2
+crw-rw----+ 1 root   cdrom    21,   0 Apr 12 09:25 sg0
+crw-rw----. 1 root   disk     21,   1 Apr 12 09:25 sg1
+drwxrwxrwt. 2 root   root          40 Apr 12 09:30 shm
+crw-------. 1 root   root     10, 231 Apr 12 09:25 snapshot
+drwxr-xr-x. 3 root   root         200 Apr 12 09:25 snd
+brw-rw----+ 1 root   cdrom    11,   0 Apr 12 09:25 sr0
+lrwxrwxrwx. 1 root   root          15 Apr 12 09:25 stderr -> /proc/self/fd/2
+lrwxrwxrwx. 1 root   root          15 Apr 12 09:25 stdin -> /proc/self/fd/0
+lrwxrwxrwx. 1 root   root          15 Apr 12 09:25 stdout -> /proc/self/fd/1
+crw-rw-rw-. 1 root   tty       5,   0 Apr 12 09:25 tty
+crw--w----. 1 root   tty       4,   0 Apr 12 09:25 tty0
+crw--w----. 1 root   tty       4,   1 Apr 12 09:28 tty1
+crw--w----. 1 root   tty       4,  10 Apr 12 09:25 tty10
+crw--w----. 1 root   tty       4,  11 Apr 12 09:25 tty11
+crw--w----. 1 root   tty       4,  12 Apr 12 09:25 tty12
+crw--w----. 1 root   tty       4,  13 Apr 12 09:25 tty13
+crw--w----. 1 root   tty       4,  14 Apr 12 09:25 tty14
+crw--w----. 1 root   tty       4,  15 Apr 12 09:25 tty15
+crw--w----. 1 root   tty       4,  16 Apr 12 09:25 tty16
+crw--w----. 1 root   tty       4,  17 Apr 12 09:25 tty17
+crw--w----. 1 root   tty       4,  18 Apr 12 09:25 tty18
+crw--w----. 1 root   tty       4,  19 Apr 12 09:25 tty19
+crw--w----. 1 miguel tty       4,   2 Apr 12 09:29 tty2
+crw--w----. 1 root   tty       4,  20 Apr 12 09:25 tty20
+crw--w----. 1 root   tty       4,  21 Apr 12 09:25 tty21
+crw--w----. 1 root   tty       4,  22 Apr 12 09:25 tty22
+crw--w----. 1 root   tty       4,  23 Apr 12 09:25 tty23
+crw--w----. 1 root   tty       4,  24 Apr 12 09:25 tty24
+crw--w----. 1 root   tty       4,  25 Apr 12 09:25 tty25
+crw--w----. 1 root   tty       4,  26 Apr 12 09:25 tty26
+crw--w----. 1 root   tty       4,  27 Apr 12 09:25 tty27
+crw--w----. 1 root   tty       4,  28 Apr 12 09:25 tty28
+crw--w----. 1 root   tty       4,  29 Apr 12 09:25 tty29
+crw--w----. 1 root   tty       4,   3 Apr 12 09:25 tty3
+crw--w----. 1 root   tty       4,  30 Apr 12 09:25 tty30
+crw--w----. 1 root   tty       4,  31 Apr 12 09:25 tty31
+crw--w----. 1 root   tty       4,  32 Apr 12 09:25 tty32
+crw--w----. 1 root   tty       4,  33 Apr 12 09:25 tty33
+crw--w----. 1 root   tty       4,  34 Apr 12 09:25 tty34
+crw--w----. 1 root   tty       4,  35 Apr 12 09:25 tty35
+crw--w----. 1 root   tty       4,  36 Apr 12 09:25 tty36
+crw--w----. 1 root   tty       4,  37 Apr 12 09:25 tty37
+crw--w----. 1 root   tty       4,  38 Apr 12 09:25 tty38
+crw--w----. 1 root   tty       4,  39 Apr 12 09:25 tty39
+crw--w----. 1 root   tty       4,   4 Apr 12 09:25 tty4
+crw--w----. 1 root   tty       4,  40 Apr 12 09:25 tty40
+crw--w----. 1 root   tty       4,  41 Apr 12 09:25 tty41
+crw--w----. 1 root   tty       4,  42 Apr 12 09:25 tty42
+crw--w----. 1 root   tty       4,  43 Apr 12 09:25 tty43
+crw--w----. 1 root   tty       4,  44 Apr 12 09:25 tty44
+crw--w----. 1 root   tty       4,  45 Apr 12 09:25 tty45
+crw--w----. 1 root   tty       4,  46 Apr 12 09:25 tty46
+crw--w----. 1 root   tty       4,  47 Apr 12 09:25 tty47
+crw--w----. 1 root   tty       4,  48 Apr 12 09:25 tty48
+crw--w----. 1 root   tty       4,  49 Apr 12 09:25 tty49
+crw--w----. 1 root   tty       4,   5 Apr 12 09:25 tty5
+crw--w----. 1 root   tty       4,  50 Apr 12 09:25 tty50
+crw--w----. 1 root   tty       4,  51 Apr 12 09:25 tty51
+crw--w----. 1 root   tty       4,  52 Apr 12 09:25 tty52
+crw--w----. 1 root   tty       4,  53 Apr 12 09:25 tty53
+crw--w----. 1 root   tty       4,  54 Apr 12 09:25 tty54
+crw--w----. 1 root   tty       4,  55 Apr 12 09:25 tty55
+crw--w----. 1 root   tty       4,  56 Apr 12 09:25 tty56
+crw--w----. 1 root   tty       4,  57 Apr 12 09:25 tty57
+crw--w----. 1 root   tty       4,  58 Apr 12 09:25 tty58
+crw--w----. 1 root   tty       4,  59 Apr 12 09:25 tty59
+crw--w----. 1 root   tty       4,   6 Apr 12 09:25 tty6
+crw--w----. 1 root   tty       4,  60 Apr 12 09:25 tty60
+crw--w----. 1 root   tty       4,  61 Apr 12 09:25 tty61
+crw--w----. 1 root   tty       4,  62 Apr 12 09:25 tty62
+crw--w----. 1 root   tty       4,  63 Apr 12 09:25 tty63
+crw--w----. 1 root   tty       4,   7 Apr 12 09:25 tty7
+crw--w----. 1 root   tty       4,   8 Apr 12 09:25 tty8
+crw--w----. 1 root   tty       4,   9 Apr 12 09:25 tty9
+crw-rw----. 1 root   dialout   4,  64 Apr 12 09:25 ttyS0
+crw-rw----. 1 root   dialout   4,  65 Apr 12 09:25 ttyS1
+crw-rw----. 1 root   dialout   4,  74 Apr 12 09:25 ttyS10
+crw-rw----. 1 root   dialout   4,  75 Apr 12 09:25 ttyS11
+crw-rw----. 1 root   dialout   4,  76 Apr 12 09:25 ttyS12
+crw-rw----. 1 root   dialout   4,  77 Apr 12 09:25 ttyS13
+crw-rw----. 1 root   dialout   4,  78 Apr 12 09:25 ttyS14
+crw-rw----. 1 root   dialout   4,  79 Apr 12 09:25 ttyS15
+crw-rw----. 1 root   dialout   4,  80 Apr 12 09:25 ttyS16
+crw-rw----. 1 root   dialout   4,  81 Apr 12 09:25 ttyS17
+crw-rw----. 1 root   dialout   4,  82 Apr 12 09:25 ttyS18
+crw-rw----. 1 root   dialout   4,  83 Apr 12 09:25 ttyS19
+crw-rw----. 1 root   dialout   4,  66 Apr 12 09:25 ttyS2
+crw-rw----. 1 root   dialout   4,  84 Apr 12 09:25 ttyS20
+crw-rw----. 1 root   dialout   4,  85 Apr 12 09:25 ttyS21
+crw-rw----. 1 root   dialout   4,  86 Apr 12 09:25 ttyS22
+crw-rw----. 1 root   dialout   4,  87 Apr 12 09:25 ttyS23
+crw-rw----. 1 root   dialout   4,  88 Apr 12 09:25 ttyS24
+crw-rw----. 1 root   dialout   4,  89 Apr 12 09:25 ttyS25
+crw-rw----. 1 root   dialout   4,  90 Apr 12 09:25 ttyS26
+crw-rw----. 1 root   dialout   4,  91 Apr 12 09:25 ttyS27
+crw-rw----. 1 root   dialout   4,  92 Apr 12 09:25 ttyS28
+crw-rw----. 1 root   dialout   4,  93 Apr 12 09:25 ttyS29
+crw-rw----. 1 root   dialout   4,  67 Apr 12 09:25 ttyS3
+crw-rw----. 1 root   dialout   4,  94 Apr 12 09:25 ttyS30
+crw-rw----. 1 root   dialout   4,  95 Apr 12 09:25 ttyS31
+crw-rw----. 1 root   dialout   4,  68 Apr 12 09:25 ttyS4
+crw-rw----. 1 root   dialout   4,  69 Apr 12 09:25 ttyS5
+crw-rw----. 1 root   dialout   4,  70 Apr 12 09:25 ttyS6
+crw-rw----. 1 root   dialout   4,  71 Apr 12 09:25 ttyS7
+crw-rw----. 1 root   dialout   4,  72 Apr 12 09:25 ttyS8
+crw-rw----. 1 root   dialout   4,  73 Apr 12 09:25 ttyS9
+crw-------. 1 root   root     10,  62 Apr 12 09:25 udmabuf
+crw-------. 1 root   root     10, 239 Apr 12 09:25 uhid
+crw-------. 1 root   root     10, 223 Apr 12 09:25 uinput
+crw-rw-rw-. 1 root   root      1,   9 Apr 12 09:25 urandom
+crw-------. 1 root   root    241,   0 Apr 12 09:25 usbmon0
+crw-------. 1 root   root    241,   1 Apr 12 09:25 usbmon1
+crw-------. 1 root   root    241,   2 Apr 12 09:25 usbmon2
+crw-rw----. 1 root   tty       7,   0 Apr 12 09:25 vcs
+crw-rw----. 1 root   tty       7,   1 Apr 12 09:25 vcs1
+crw-rw----. 1 root   tty       7,   2 Apr 12 09:28 vcs2
+crw-rw----. 1 root   tty       7,   3 Apr 12 09:28 vcs3
+crw-rw----. 1 root   tty       7,   4 Apr 12 09:28 vcs4
+crw-rw----. 1 root   tty       7,   5 Apr 12 09:28 vcs5
+crw-rw----. 1 root   tty       7,   6 Apr 12 09:28 vcs6
+crw-rw----. 1 root   tty       7, 128 Apr 12 09:25 vcsa
+crw-rw----. 1 root   tty       7, 129 Apr 12 09:25 vcsa1
+crw-rw----. 1 root   tty       7, 130 Apr 12 09:28 vcsa2
+crw-rw----. 1 root   tty       7, 131 Apr 12 09:28 vcsa3
+crw-rw----. 1 root   tty       7, 132 Apr 12 09:28 vcsa4
+crw-rw----. 1 root   tty       7, 133 Apr 12 09:28 vcsa5
+crw-rw----. 1 root   tty       7, 134 Apr 12 09:28 vcsa6
+crw-rw----. 1 root   tty       7,  64 Apr 12 09:25 vcsu
+crw-rw----. 1 root   tty       7,  65 Apr 12 09:25 vcsu1
+crw-rw----. 1 root   tty       7,  66 Apr 12 09:28 vcsu2
+crw-rw----. 1 root   tty       7,  67 Apr 12 09:28 vcsu3
+crw-rw----. 1 root   tty       7,  68 Apr 12 09:28 vcsu4
+crw-rw----. 1 root   tty       7,  69 Apr 12 09:28 vcsu5
+crw-rw----. 1 root   tty       7,  70 Apr 12 09:28 vcsu6
+drwxr-xr-x. 2 root   root          60 Apr 12 09:25 vfio
+crw-------. 1 root   root     10,  63 Apr 12 09:25 vga_arbiter
+crw-------. 1 root   root     10, 137 Apr 12 09:25 vhci
+crw-------. 1 root   root     10, 238 Apr 12 09:25 vhost-net
+crw-------. 1 root   root     10, 241 Apr 12 09:25 vhost-vsock
+crw-------. 1 root   root     10,  57 Apr 12 09:25 vmci
+crw-------. 1 root   root     10,  55 Apr 12 09:28 vsock
+crw-rw-rw-. 1 root   root      1,   5 Apr 12 09:25 zero

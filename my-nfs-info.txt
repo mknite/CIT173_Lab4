@@ -1,0 +1,63 @@
+filename:       /lib/modules/5.0.6-200.fc29.x86_64/kernel/fs/nfs/nfs.ko.xz
+license:        GPL
+author:         Olaf Kirch <okir@monad.swb.de>
+alias:          nfs4
+alias:          fs-nfs4
+alias:          fs-nfs
+depends:        fscache,sunrpc,lockd
+retpoline:      Y
+intree:         Y
+name:           nfs
+vermagic:       5.0.6-200.fc29.x86_64 SMP mod_unload 
+sig_id:         PKCS#7
+signer:         
+sig_key:        
+sig_hashalgo:   md4
+signature:      30:82:02:DA:06:09:2A:86:48:86:F7:0D:01:07:02:A0:82:02:CB:30:
+		82:02:C7:02:01:01:31:0D:30:0B:06:09:60:86:48:01:65:03:04:02:
+		01:30:0B:06:09:2A:86:48:86:F7:0D:01:07:01:31:82:02:A4:30:82:
+		02:A0:02:01:01:30:7B:30:63:31:0F:30:0D:06:03:55:04:0A:0C:06:
+		46:65:64:6F:72:61:31:22:30:20:06:03:55:04:03:0C:19:46:65:64:
+		6F:72:61:20:6B:65:72:6E:65:6C:20:73:69:67:6E:69:6E:67:20:6B:
+		65:79:31:2C:30:2A:06:09:2A:86:48:86:F7:0D:01:09:01:16:1D:6B:
+		65:72:6E:65:6C:2D:74:65:61:6D:40:66:65:64:6F:72:61:70:72:6F:
+		6A:65:63:74:2E:6F:72:67:02:14:28:45:F0:AB:27:AF:E1:CC:7F:37:
+		8D:1A:60:13:8E:DB:CB:C4:A8:70:30:0B:06:09:60:86:48:01:65:03:
+		04:02:01:30:0D:06:09:2A:86:48:86:F7:0D:01:01:01:05:00:04:82:
+		02:00:C9:60:61:FD:0C:A4:4A:2D:D1:62:C2:25:97:88:11:3D:EE:03:
+		04:7A:06:19:14:99:D9:DB:29:7C:A4:BF:56:D8:E5:A3:43:03:3D:00:
+		B5:32:97:7D:D7:77:56:4D:74:74:38:BE:84:D1:63:45:8F:AD:D0:B5:
+		51:F3:C2:5B:ED:67:83:5E:B0:D7:D7:95:62:E7:AC:6F:90:FA:BB:DC:
+		0E:CB:C5:08:44:31:FB:AA:30:DF:F0:D4:B8:02:5B:74:AE:EB:B1:71:
+		EF:7C:E9:12:14:0B:6C:46:75:68:A5:2C:AB:BE:EE:E5:2A:A7:DB:9D:
+		92:95:FF:E3:D4:D3:00:0E:89:97:B8:9B:E8:F1:81:3C:6B:7E:A4:22:
+		80:16:16:E4:F2:2D:65:EA:A0:10:0B:8F:0A:E4:1F:4C:65:4F:F4:E1:
+		7A:1C:0C:1D:F3:93:D1:BF:00:09:05:43:73:48:3D:D7:69:B0:EB:23:
+		98:07:CA:58:EF:69:EB:15:47:CE:B1:CB:3F:42:5B:E9:7C:45:F3:26:
+		85:F7:EB:1A:F8:1D:E3:F5:7F:DF:B6:32:3C:00:21:AC:F0:A2:68:10:
+		F7:94:CC:43:A0:37:81:15:62:6E:33:5A:BF:58:9E:EF:85:E6:6D:90:
+		75:3C:4E:E7:6A:7D:19:13:ED:04:A3:C7:4A:E3:90:DE:AE:98:68:0D:
+		49:A1:FB:B8:76:67:FB:F8:3B:1D:4A:8A:D1:1B:AE:79:52:8F:77:84:
+		23:06:EC:51:E2:24:C2:4E:4E:D4:91:E8:DC:A8:F0:59:A3:58:E5:F6:
+		A6:31:8F:22:EB:42:31:5B:47:AE:F5:7E:BF:DE:BD:4F:F9:E1:6B:74:
+		1E:5D:9E:CA:5F:17:03:DF:05:31:F7:FD:C2:21:6F:9C:7F:46:D0:7C:
+		14:53:D5:29:6F:85:21:6B:52:A0:61:63:08:FC:2E:8F:31:9D:05:5B:
+		A4:2C:73:D3:3D:28:10:28:F9:03:93:28:9F:BE:93:19:A3:20:D3:56:
+		41:8D:93:37:37:71:11:D4:4E:4C:E7:78:D5:99:5F:A5:C3:CC:8B:CB:
+		18:F6:46:32:0C:E5:FB:FC:F5:43:51:B8:23:21:08:9E:A3:E3:3D:8D:
+		6F:B4:07:5F:AA:7C:3F:28:74:2B:C2:0F:A9:C5:E7:5F:33:2B:83:01:
+		EB:CA:8D:86:D7:85:ED:CF:1C:3D:E3:2B:00:02:76:12:C1:59:52:1C:
+		43:8A:78:2E:35:08:D8:41:22:12:86:9C:DC:E7:0C:A1:90:F5:F0:31:
+		AC:EC:74:E3:81:1F:56:F0:5A:96:E3:FA:F5:09:AB:D5:3F:39:1D:D9:
+		AC:01:4F:DB:58:48:A0:8A:FE:E7:76:BD:DF:66
+parm:           callback_tcpport:portnr
+parm:           callback_nr_threads:Number of threads that will be assigned to the NFSv4 callback channels. (ushort)
+parm:           nfs_idmap_cache_timeout:int
+parm:           nfs4_disable_idmapping:Turn off NFSv4 idmapping when using 'sec=sys' (bool)
+parm:           max_session_slots:Maximum number of outstanding NFSv4.1 requests the client will negotiate (ushort)
+parm:           max_session_cb_slots:Maximum number of parallel NFSv4.1 callbacks the client will process for a given server (ushort)
+parm:           send_implementation_id:Send implementation ID with NFSv4.1 exchange_id (ushort)
+parm:           nfs4_unique_id:nfs_client_id4 uniquifier string (string)
+parm:           recover_lost_locks:If the server reports that a lock might be lost, try to recover it risking data corruption. (bool)
+parm:           enable_ino64:bool
+parm:           nfs_access_max_cachesize:NFS access maximum total cache length (ulong)
